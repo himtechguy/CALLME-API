@@ -12,10 +12,10 @@
       }
     ]
   },
-  "migrations": [
-    {
-      "tag": "v1",
-      "new_sqlite_classes": ["CallRoom"]
+  "exports": {
+    "CallRoom": {
+      "type": "durable-object",
+      "storage": "sqlite"
     }
-  ]
+  }
 }
